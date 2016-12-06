@@ -515,6 +515,10 @@ public class DFSConfigKeys extends CommonConfigurationKeys {
       "dfs.mover.keytab.file";
   public static final String  DFS_MOVER_KERBEROS_PRINCIPAL_KEY =
       "dfs.mover.kerberos.principal";
+  public static final String  DFS_STORAGE_POLICY_SATISFIER_ACTIVATE_KEY =
+      "dfs.storage.policy.satisfier.activate";
+  public static final boolean DFS_STORAGE_POLICY_SATISFIER_ACTIVATE_DEFAULT =
+      true;
 
   public static final String  DFS_DATANODE_ADDRESS_KEY = "dfs.datanode.address";
   public static final int     DFS_DATANODE_DEFAULT_PORT = 9866;
